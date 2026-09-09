@@ -51,23 +51,36 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 ### 2.5 Suposições e Dependências
 
 ## 3. Requisitos Específicos
+> Nesta seção, os requisitos são organizados por módulo funcional e, dentro de cada módulo, por ator.
+
+### 3.1 Requisitos Funcionais
+
+#### 3.1.1 Módulo Acadêmico
+
+- **RF-XX (NOME)** - O Sitema deve permitir algo acontecer.
+
+### 3.2 Requisitos Não Funcionais
+
+- **RNF-XX (NOME)** - O Sitema (não) deve ser algo.
 
 ## 4. Apêndices
 
+*[Apêndices]*
+
 ## 5. Índice
 
-[1 Introdução](#1-introdução)
-[1.1 Propósito do documento de requisitos]
-1.2 Escopo do produto
-1.3 Definições, acrônimos e abreviações
-1.4 Referências
-1.5 Visão geral do restante do documento
-2 Descrição Geral
-2.1 Perspectiva do Produto
-2.2 Funcionalidade do Produto
-2.3 Características do Usuário
-2.4 Restrições Gerais
-2.5 Suposições e Dependências
-3. Requisitos Específicos
-4. Apêndices
-5. Índice 
+* [1 Introdução](#1-introdução)
+* [1.1 Propósito do documento de requisitos](#11-propósito-do-documento-de-requisitos)
+* [1.2 Escopo do produto](#12-escopo-do-produto)
+* [1.3 Definições, acrônimos e abreviações](#13-definições-acrônimos-e-abreviações)
+* [1.4 Referências](#14-refências)
+* [1.5 Visão geral do restante do documento](#15-visão-geral-do-restante-do-documento)
+* [2 Descrição Geral](#2-descrição-geral)
+* [2.1 Perspectiva do Produto](#21-perspectiva-do-produto)
+* [2.2 Funcionalidade do Produto](#22-funcionalidade-do-produto)
+* [2.3 Características do Usuário](#23-características-do-usuário)
+* [2.4 Restrições Gerais](#24-restrições-gerais)
+* [2.5 Suposições e Dependências](#25-suposições-e-dependências)
+* [3. Requisitos Específicos](#3-requisitos-específicos)
+* [4. Apêndices](#4-apêndices)
+* [5. Índice](#5-índice)

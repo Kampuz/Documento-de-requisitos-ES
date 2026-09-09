@@ -51,11 +51,8 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 ### 2.5 Suposições e Dependências
 
 ## 3. Requisitos Específicos
-> Nesta seção, os requisitos são organizados por módulo funcional e, dentro de cada módulo, por ator.
 
 ### 3.1 Requisitos Funcionais
-
-#### 3.1.1 Módulo Acadêmico
 
 - **RF-XX (NOME)** - O Sitema deve permitir algo acontecer.
 

@@ -1,6 +1,6 @@
 # Documento de Requisitos
 
-## Sistema de Gerenciamento para Esccola de Línguas (Acadêmico e Comercial)
+## Sistema de Gerenciamento para Escola de Línguas (Acadêmico e Comercial)
 
 ---
 
@@ -74,7 +74,7 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 
 ### 3.1 Requisitos Funcionais
 
-- **RF-XX (NOME)** - O Sitema deve permitir algo acontecer.
+- **RF-XX (NOME)** - O Sistema deve permitir algo.
 
 ### 3.2 Requisitos Não Funcionais
 

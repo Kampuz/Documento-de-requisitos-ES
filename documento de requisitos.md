@@ -78,7 +78,13 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 
 ### 3.2 Requisitos Não Funcionais
 
-- **RNF-XX (NOME)** - O Sitema (não) deve ser algo.
+- **RNF-01 (Segurança)** - **[TODO]**
+- **RNF-02 (Usabilidade)** - A interface deve ser utilizável por usuários sem conhecimento técnico avançado, especialmente nos perfis Administrador, Professor e Aluno.
+- **RNF-03 (Desempenho)** - Operações de consulta (ex.: verificação de conflito de horário) devem ser processadas em tempo aceitável, evitando bloqueios perceptíveis ao usuário.
+- **RNF-04 (Disponibilidade)** - **[TODO]**
+- **RNF-05 (Confiabilidade)** - O Sistema não deve permitir inconsistências como duplo agendamento do mesmo professor ou sala no mesmo horário.
+- **RNF-06 (Manutenibilidade)** - O Sistema deve ser estruturado de forma modular, permitindo evolução independente dos módulos acadêmicos e financeiro.
+- **RNF-07 (Compatibilidade)** - O Sistema deve ser acessível para computadores que possuam JAVA XX.
 
 ## 4. Apêndices
 

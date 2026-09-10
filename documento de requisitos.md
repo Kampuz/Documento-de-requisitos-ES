@@ -10,22 +10,31 @@
 
 Este documento tem como propósito especificar os requisitos funcionais e não funcionais do Sistema de Gerenciamento para Escola de Línguas, referido durante o documento como "o Sistema". O documento serve como base de comunicação entre a equipe de desenvolvimento, gerentes e usuários finais, definindo de forma clara e objetiva o que o Sistema deve fazer, quais restrições deve respeitar e quais características de qualidade deve possuir.
 
-O público-alvo deste documento inclui: equipe de desenvolvimento e o cliente(?).
+O público-alvo deste documento inclui: equipe de desenvolvimento, potenciais usuários (professor da disciplina).
 
 ### 1.2 Escopo do produto
 
-O Sistema tem como objetivo ser um gerenciador completo para uma Escola de Línguas, contemplando tato a **gestão acadêmica** (turmas, matrículas, frequuência, notas, professores) quanto a **gestão comercial** (contratos, mensalidades, cobranças, folha de pagamento, venda de materiais) do negócio.
+O Sistema tem como objetivo ser um gerenciador completo para escolas de línguas, contemplando tanto a **gestão acadêmica** (turmas, matrículas, frequuência, notas, professores) quanto a **gestão comercial** (contratos, mensalidades, cobranças, folha de pagamento, venda de materiais) do negócio.
 
-**O Sistema visa**: [Lista de coisas incluidas no sistema]
+**O Sistema visa**:
 
-**Fora do escopo**: [Lista de coisas foras ddo escopo] (revisar com o Roger)
+- Automatizar o processo de matrícula, rematrícula e transferência de alunos entre turmas;
+- Controlar a alocação de turmas, salas e horários, evitando conflitos de agenda;
+- Gerenciar o corpo docente, incluindo contratos, disponibilidade e remuneração;
+- Acompanhar o desempenho acadêmico dos alunos (frequência, notas, histórico);
+- Controlar o fluxo financeiro da escola (receitas, despesas, inadimplência, repasses);
+- Fornecer portais de consulta para alunos e professores.
+
+**Fora do escopo**: Disponibilização de tarefas e sistema de videoconferência próprio (a turma deve utilizar programas de terceiros), integração com gateways de pagamento externos e emissão fiscal.
 
 ### 1.3 Definições, acrônimos e abreviações
 
-| Termo | Definição|
-|---|---|
+| Termo | Definição |
+| --- | --- |
 | RF | Requisito Funcional |
 | RNF | Requisito Não Funcional |
+| Aluno | Usuário matriculado em ao menos uma turma da escola |
+| Turma | Agrupamento de alunos cursando um mesmo idioma/nível em um mesmo período/horário |
 
 ### 1.4 Refências
 

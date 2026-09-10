@@ -38,7 +38,11 @@ O Sistema tem como objetivo ser um gerenciador completo para escolas de línguas
 
 ### 1.4 Refências
 
-[Referências externas]
+"IEEE Recommended Practice for Software Requirements Specifications," in IEEE Std 830-1998 , vol., no., pp.1-40, 20 Oct. 1998, doi: 10.1109/IEEESTD.1998.88286.
+URL: <https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=720574&isnumber=15571>
+
+Documentação interna do projeto: "Ideias - Projeto ES II"
+URL: <https://docs.google.com/document/d/1AZ7kweWREC_jZflhAPyJzU8V_zu19BsfQ1N4kGLYcsE/edit?tab=t.0>
 
 ### 1.5 Visão geral do restante do documento
 

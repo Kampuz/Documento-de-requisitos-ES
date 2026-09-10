@@ -55,6 +55,13 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 
 ### 2.3 Características do Usuário
 
+| Ator | Perfil | Principais responsabilidades no sitema |
+| --- | --- | --- |
+| Administrador/ Secretário | Usuário administrativo, sem necessidade de conhecimento técnico avançado; familiaridade com rotinas de secretaria escolar | Gerenciar cursos, turmas, salas, horários, matrículas, cadastros e lista de espera |
+| Professor | Conhecimento básico de informática; foco pedagógico | Consultar turmas/ horários, registrar frequência e notas, informar disponibilidade |
+| Financeiro | Usuário administrativo com conhecimento de rotinas financeiras/ contábeis básicas | Definir preços e planos, controlar cobranças e inadimplência, gerenciar folha de pagamento, gerar relatórios |
+| Aluno | Público geral | Consultar plano de ensino, calendário, notas, faltas, pagamentos |
+
 ### 2.4 Restrições Gerais
 
 ### 2.5 Suposições e Dependências

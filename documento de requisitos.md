@@ -74,17 +74,51 @@ A seção 3 detalha os requisitos funcionais e não funcionais específicos do s
 
 ### 3.1 Requisitos Funcionais
 
-- **RF-XX (NOME)** - O Sistema deve permitir algo.
+- **RF-01** - O sistema deve permitir o cadastro de alunos, contendo nome, documentos, idade, contato e, quando aplicável, dados do responsável legal.
+- **RF-02** - O sistema deve permitir o cadastro de professores, incluindo idiomas que podem lecionar, dados pessoais e dados contratuais.
+- **RF-03** - O sistema deve permitir o cadastro de funcionários administrativos e financeiros.
+- **RF-04** - O sistema deve exigir o cadastro de um responsável legal para alunos menores de idade.
+- **RF-05** - O sistema deve permitir o cadastro de idiomas e seus respectivos níveis (A1, A2, I1, I2, B1, B2).
+- **RF-06** - O sistema deve permitir o registro de resultado de teste de nivelamento para alunos que desejam ingressar em nível diferente do inicial.
+- **RF-07** - O sistema deve permitir a criação de turmas por período/semestre, definindo idioma, nível e modalidade (presencial, online ou híbrido).
+- **RF-08** - O sistema deve permitir a alocação de sala a uma turma, verificando a capacidade máxima de alunos.
+- **RF-09** - O sistema deve verificar conflitos de horário de sala e de professor antes de confirmar a alocação de uma turma.
+- **RF-10** - O sistema deve inserir automaticamente o aluno em lista de espera quando a turma desejada atingir capacidade máxima.
+- **RF-11** - O sistema deve notificar o próximo aluno da lista de espera quando surgir uma vaga.
+- **RF-12** - O sistema deve permitir ao professor registrar frequência diária dos alunos.
+- **RF-13** - O sistema deve permitir ao professor registrar notas e avaliações pedagógicas.
+- **RF-14** - O sistema deve permitir ao professor disponibilizar atividades, avaliações e conteúdos pedagógicos.
+- **RF-15** - O sistema deve permitir ao professor informar e atualizar sua disponibilidade de dias e horários.
+- **RF-16** - O sistema deve manter o histórico acadêmico do aluno, incluindo turmas cursadas, notas, faltas e documentos emitidos.
+- **RF-17** - O sistema deve aplicar critérios de aprovação (nota mínima e frequência mínima) definidos para cada turma/curso.
+- **RF-18** - O sistema deve permitir a emissão de certificado de conclusão para alunos aprovados.
+- **RF-19** - O sistema deve permitir o registro de matrícula de um aluno em uma turma, validando existência de vaga, idade mínima e resultado de nivelamento (quando aplicável).
+- **RF-20** - O sistema deve permitir rematrícula do aluno para o período/semestre seguinte.
+- **RF-21** - O sistema deve permitir a transferência de um aluno entre turmas, respeitando as mesmas validações da matrícula.
+- **RF-22** - O sistema deve impedir nova matrícula de aluno inadimplente.
+- **RF-23** - O sistema deve permitir ao Financeiro definir planos de pagamento, valores de mensalidade e taxas de matrícula.
+- **RF-24** - O sistema deve permitir o controle de recebimentos, cobranças e identificação de inadimplência.
+- **RF-25** - O sistema deve permitir a aplicação de descontos (pontualidade, convênios, parentesco entre alunos).
+- **RF-26** - O sistema deve permitir a gestão da folha de pagamento/repasse a professores, por hora/aula ou valor fixo.
+- **RF-27** - O sistema deve permitir o registro de venda de materiais didáticos e controle básico de estoque.
+- **RF-28** - O sistema deve gerar relatórios de receita, despesas, conversão e evasão de alunos.
+- **RF-29** - O sistema deve permitir consulta, por parte do professor, ao próprio extrato de horas/aulas e valores a receber.
+- **RF-30** - O sistema deve permitir ao aluno consultar seu plano de ensino e calendário de aulas.
+- **RF-31** - O sistema deve permitir ao aluno consultar suas faltas, presenças e notas.
+- **RF-32** - O sistema deve permitir ao aluno consultar sua situação de pagamento.
+- **RF-33** - O sistema deve permitir ao aluno visualizar informações de semestres futuros (quando disponíveis).
+- **RF-34** - O sistema deve permitir ao aluno acessar atividades disponibilizadas pelo professor.
+- **RF-35** - O sistema deve disponibilizar ao aluno uma área de links (sala virtual, grupo da turma, materiais, provas).
 
 ### 3.2 Requisitos Não Funcionais
 
 - **RNF-01 (Segurança)** - **[TODO]**
 - **RNF-02 (Usabilidade)** - A interface deve ser utilizável por usuários sem conhecimento técnico avançado, especialmente nos perfis Administrador, Professor e Aluno.
-- **RNF-03 (Desempenho)** - Operações de consulta (ex.: verificação de conflito de horário) devem ser processadas em tempo aceitável, evitando bloqueios perceptíveis ao usuário.
+- **RNF-03 (Desempenho)**** - Operações de consulta (ex.: verificação de conflito de horário) devem ser processadas em tempo aceitável, evitando bloqueios perceptíveis ao usuário.
 - **RNF-04 (Disponibilidade)** - **[TODO]**
-- **RNF-05 (Confiabilidade)** - O Sistema não deve permitir inconsistências como duplo agendamento do mesmo professor ou sala no mesmo horário.
-- **RNF-06 (Manutenibilidade)** - O Sistema deve ser estruturado de forma modular, permitindo evolução independente dos módulos acadêmicos e financeiro.
-- **RNF-07 (Compatibilidade)** - O Sistema deve ser acessível para computadores que possuam JAVA XX.
+- **RNF-05 (Confiabilidade)**** - O Sistema não deve permitir inconsistências como duplo agendamento do mesmo professor ou sala no mesmo horário.
+- **RNF-06 (Manutenibilidade)**** - O Sistema deve ser estruturado de forma modular, permitindo evolução independente dos módulos acadêmicos e financeiro.
+- **RNF-07 (Compatibilidade)**** - O Sistema deve ser acessível para computadores que possuam JAVA XX.
 
 ## 4. Apêndices
 
